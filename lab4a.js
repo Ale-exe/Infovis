@@ -169,7 +169,7 @@ $(function () {
 			},
 			series: [seriesY]
 		});
-	}
+	};
 
 
 	function makeMenu(chartTitle, seriesName, chartType){
