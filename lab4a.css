@@ -1,0 +1,95 @@
+body {
+	margin: 0;
+	padding: 0;
+	/*max-width: 1600px;*/
+	max-width: 1880px;
+	font-family: Helvetica, sans-serif;
+}
+
+
+header{
+	width: 99%;
+	height: 5ex;
+	margin-top: 0.5ex;
+	padding-top: 0.5ex;
+	padding-left: 1%;
+	background-color: aliceblue;
+	font-weight: bold;
+	font-size: 18pt;
+}
+
+#subheading{
+	font-size: 12pt;
+}
+
+#rightmenu{
+	padding-top: 10px;
+	padding-left: 5px;
+}
+
+.multimenu > div {			/* a generic class applied to the direct <div> children
+								of the specified element */
+	padding: 1px;			/* leave a small gap all round */
+	border: 1px solid blue;	/* so we can see where it is */
+}
+.multimenu {						/* rules for the grid cells */
+	display: grid;					/* declare this element as part of a grid*/
+	grid-template-columns: 9fr 1fr;	/* the grid has 2 columns in a 9:1 ratio
+									i.e. 9 fractions to 1 fraction */
+}
+#menuListSelect{
+	font-size: 18pt;
+	background-color: aliceblue;
+	font-weight: bold;
+	border: 0;
+}
+.menuboxpara{
+	font-size: 12pt;
+
+	margin-top: 10%;
+	margin-bottom: 0;
+}
+
+.container1 > div {
+	padding: 1px;
+	outline-style: solid;
+	outline-width: 1px;
+}
+.container1 {
+	display: grid;
+	padding-left: 1px;
+	grid-template-columns: repeat(1, 1fr);	/* create 3 equal columns*/
+}
+
+.container2 > div {
+	padding: 1px;
+	outline-style: solid;
+	outline-width: 1px;
+}
+.container2 {
+	display: grid;
+	padding-left: 1px;
+	grid-template-columns: repeat(2, 1fr);	/* create 3 equal columns*/
+}
+
+.container3 > div {
+	padding: 1px;
+	outline-style: solid;
+	outline-width: 1px;
+}
+.container3 {
+	display: grid;
+	padding-left: 1px;
+	grid-template-columns: repeat(3, 1fr);	/* create 3 equal columns*/
+}
+
+.container5 > div {
+	padding: 1px;
+	outline-style: solid;
+	outline-width: 1px;
+}
+.container5 {
+	display: grid;
+	padding-left: 1px;
+	grid-template-columns: repeat(5, 1fr);	/* create 3 equal columns*/
+}
